@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\MedicationCategory_sample1.json" />
+    <None Remove="Data\MedicationCategory_sample2.json" />
+    <None Remove="Data\MedicationCondition_sample1.json" />
+    <None Remove="Data\TestTreatment_sample1.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\MedicationCategory_sample1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\MedicationCategory_sample2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\MedicationCondition_sample1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\TestTreatment_sample1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.ComprehendMedical" Version="3.3.101.24" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.100.1" />
+    <PackageReference Include="AWSSDK.Textract" Version="3.3.101.95" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PatientEngTranscription.Shared\PatientEngTranscription.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

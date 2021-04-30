@@ -1,0 +1,30 @@
+{
+  "Entities": [
+    {
+      "Id": 0,
+      "BeginOffset": 26,
+      "EndOffset": 33,
+      "Score": 0.9961825013160706,
+      "Text": "chronic",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "ACUITY",
+      "Traits": []
+    },
+    {
+      "Id": 1,
+      "BeginOffset": 34,
+      "EndOffset": 45,
+      "Score": 0.8380221724510193,
+      "Text": "aching pain",
+      "Category": "MEDICAL_CONDITION",
+      "Type": "DX_NAME",
+      "Traits": [
+        {
+          "Name": "SYMPTOM",
+          "Score": 0.6004688739776611
+        }
+      ]
+    }
+  ],
+  "UnmappedAttributes": []
+}

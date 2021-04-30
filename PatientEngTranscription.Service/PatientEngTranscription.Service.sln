@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientEngTranscription.Service", "PatientEngTranscription.Service.csproj", "{119B5446-8612-4FE9-9477-1D13A4F33713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119B5446-8612-4FE9-9477-1D13A4F33713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119B5446-8612-4FE9-9477-1D13A4F33713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119B5446-8612-4FE9-9477-1D13A4F33713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119B5446-8612-4FE9-9477-1D13A4F33713}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6ABF6F2-29BA-47F4-94DE-2CD0899F60BD}
+	EndGlobalSection
+EndGlobal

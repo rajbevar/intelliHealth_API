@@ -1,0 +1,29 @@
+{
+  "Results": {
+    "output1": [
+      {
+        "0": "Acetaminophen (Tylenol);Ibuprofen;ORS;Ioperamide 150 mg"
+      }
+    ]
+
+  }
+}
+  //}
+  //      "value"
+  //      :
+  //      {
+  //        "ColumnNames": [
+  //          "0"
+  //        ],
+  //        "ColumnTypes": [
+  //          "String"
+  //        ],
+  //        "Values": [
+  //          [
+  //            "Acetaminophen (Tylenol);Ibuprofen;ORS;Ioperamide 150 mg"
+  //          ]
+  //        ]
+  //      }
+  //    }
+  //  }
+  //}

@@ -1,0 +1,110 @@
+﻿{
+  "Entities": [
+    {
+      "Id": 0,
+      "BeginOffset": 0,
+      "EndOffset": 7,
+      "Score": 0.9991106390953064,
+      "Text": "aspirin",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DOSAGE",
+          "Score": 0.9897580146789551,
+          "RelationshipScore": 0.9995152950286865,
+          "Id": 1,
+          "BeginOffset": 20,
+          "EndOffset": 25,
+          "Text": "20 mg",
+          "Traits": []
+        },
+        {
+          "Type": "FREQUENCY",
+          "Score": 0.7840958833694458,
+          "RelationshipScore": 0.9975913763046265,
+          "Id": 2,
+          "BeginOffset": 26,
+          "EndOffset": 41,
+          "Text": "post meal daily",
+          "Traits": []
+        },
+        {
+          "Type": "DURATION",
+          "Score": 0.9363040328025818,
+          "RelationshipScore": 0.9982617497444153,
+          "Id": 3,
+          "BeginOffset": 46,
+          "EndOffset": 53,
+          "Text": "2 times",
+          "Traits": []
+        },
+        {
+          "Type": "FORM",
+          "Score": 0.8920710682868958,
+          "RelationshipScore": 0.9987176656723022,
+          "Id": 4,
+          "BeginOffset": 57,
+          "EndOffset": 60,
+          "Text": "tab",
+          "Traits": []
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "BeginOffset": 65,
+      "EndOffset": 78,
+      "Score": 0.9989421963691711,
+      "Text": "Acetaminophen",
+      "Category": "MEDICATION",
+      "Type": "GENERIC_NAME",
+      "Traits": [],
+      "Attributes": [
+        {
+          "Type": "DOSAGE",
+          "Score": 0.9911647439002991,
+          "RelationshipScore": 0.9973000884056091,
+          "Id": 6,
+          "BeginOffset": 91,
+          "EndOffset": 96,
+          "Text": "20 mg",
+          "Traits": []
+        },
+        {
+          "Type": "FREQUENCY",
+          "Score": 0.7023442983627319,
+          "RelationshipScore": 0.9981479644775391,
+          "Id": 7,
+          "BeginOffset": 97,
+          "EndOffset": 112,
+          "Text": "post meal daily",
+          "Traits": []
+        },
+        {
+          "Type": "DURATION",
+          "Score": 0.8319496512413025,
+          "RelationshipScore": 0.9993471503257751,
+          "Id": 8,
+          "BeginOffset": 117,
+          "EndOffset": 124,
+          "Text": "2 times",
+          "Traits": []
+        },
+        {
+          "Type": "FORM",
+          "Score": 0.7027425169944763,
+          "RelationshipScore": 0.936454713344574,
+          "Id": 9,
+          "BeginOffset": 128,
+          "EndOffset": 131,
+          "Text": "tab",
+          "Traits": []
+        }
+      ]
+    }
+  ],
+  "UnmappedAttributes": [],
+  "ModelVersion": "0.0.0"
+}

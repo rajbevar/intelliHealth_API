@@ -1,0 +1,1149 @@
+{
+  "Treatments": [
+    {
+      "Treatment": "Headache",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Paracetamol",
+          "Symptoms":[
+            "Sleep", "Sleeping", "Sleepiness","Stress", "vomiting","nausea,headache"
+          ],
+        
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "1 g",
+              "Frequencey": "every 4 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "3 mg",
+              "Frequencey": "once daily at night",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": {
+            "DrugName": "Aspirin",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "600 mg",
+                "Frequencey": "every 4 hours",
+                "Mode": "po"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "epilepsy",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Phenobarbitone",
+          "Symptoms": [
+            "frequent seizures",
+            "confusion,epilepsy"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "90 mg",
+              "Frequencey": "once daily at night",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "3 mg",
+              "Frequencey": "once daily at night",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Phenytoin",
+          "Symptoms":[
+            "frequent seizures", "Loss of consciousness"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "200 mg",
+              "Frequencey": "once daily at night or twice daily",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "5 mg",
+              "Frequencey": "once daily at night",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "2",
+          "Ratings": "2",
+          "DrugName": "Carbamazepine",
+          "Symptoms":[
+            "frequent seizures", "fear", "anxiety"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "300 mg",
+              "Frequencey": "twice daily",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "10 mg",
+              "Frequencey": "twice in a day",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "cough",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Cough syrup/Linctus",
+          "Symptoms":[
+            "Shortness of breath","Runny nose","Sore throat" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "10 ml",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "10 ml",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Cough expectorants",
+          "Symptoms":[
+            "frequent seizures", "Heartburn","Fever and chills"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "10 ml",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "10 ml",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "periodontitis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Metronidazole",
+          "Symptoms":[
+            "malaise", "high temprature", "bad smell" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "400 mg",
+              "Frequencey": "every 8 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": {
+            "DrugName": "Tetracycline",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "500 mg",
+                "Frequencey": "every 8 hours",
+                "Mode": "po"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "stomatitis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Paracetamol",
+          "Symptoms":[
+            "oral sores", "ulceration" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "1000 mg",
+              "Frequencey": "every 8 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": [
+            {
+              "DrugName": "Diclofenac",
+              "AgeCategory": [
+                {
+                  "Group": "Adult",
+                  "Dosage": "50 mg",
+                  "Frequencey": "every 8 hours",
+                  "Mode": "po"
+                }
+              ]
+            },
+            {
+              "DrugName": "Ibuprofen",
+              "AgeCategory": [
+                {
+                  "Group": "Adult",
+                  "Dosage": "400 mg",
+                  "Frequencey": "every 8 hours",
+                  "Mode": "po"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Treatment": "dental caries",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Paracetamol",
+          "Symptoms":[
+            "cavities in enamel", "pain", "toothache" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "1000 mg",
+              "Frequencey": "every 8 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": [
+            {
+              "DrugName": "Diclofenac",
+              "AgeCategory": [
+                {
+                  "Group": "Adult",
+                  "Dosage": "50 mg",
+                  "Frequencey": "every 8 hours",
+                  "Mode": "po"
+                }
+              ]
+            },
+            {
+              "DrugName": "Ibuprofen",
+              "AgeCategory": [
+                {
+                  "Group": "Adult",
+                  "Dosage": "400 mg",
+                  "Frequencey": "every 8 hours",
+                  "Mode": "po"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Treatment": "fungal infections",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Nystatin",
+          "Symptoms":[
+            "Soreness", "erythema", "fissuring" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "100000 IU",
+              "Frequencey": "every 4 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Miconazole",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "25 mg",
+                "Frequencey": "every 3 hours",
+                "Mode": "po"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "viral infections",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Paracetamol",
+          "Symptoms":[
+            "itching", "redness","tingling" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "1000 mg",
+              "Frequencey": "every 8 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Diclofenac",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "50 mg",
+                "Frequencey": "every 8 hours",
+                "Mode": "po"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "osteomyelitis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Cloxacillin",
+          "Symptoms":[
+            "fever", "feverish", "severe pain in bone" 
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "3 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "25 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Clindamycingive",
+          "Symptoms":[
+            "fever", "irritability", "fatigue", "Nausea", "Swelling"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": ".6 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "low back pain",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Ibuprofen",
+          "Symptoms":[
+            "Muscle weakness"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "3 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Diclofenac",
+          "Symptoms":[
+            "Muscle weakness", "tingling in limbs"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "75 mg",
+              "Frequencey": "every 12 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": [
+            {
+              "DrugName": "Diclofenac",
+              "AgeCategory": [
+                {
+                  "Group": "Adult",
+                  "Dosage": "50 mg",
+                  "Frequencey": "every 8 hours",
+                  "Mode": "po"
+                }
+              ]
+            },
+            {
+              "DrugName": "Tramadol",
+              "AgeCategory": [
+                {
+                  "Group": "Adult",
+                  "Dosage": "50 mg",
+                  "Frequencey": "every 8 hours",
+                  "Mode": "po"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Treatment": "soft tissue injuries",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Paracetamol",
+          "Symptoms":[
+            "Bruising", "Swelling"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "15 mg",
+              "Frequencey": "every 4 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "Amebiasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Metronidazole",
+          "Symptoms":[
+            "abdominal cramping"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "400 mg",
+              "Frequencey": "every 8 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "100 mg",
+              "Frequencey": "every 8 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Tinidazole",
+          "Symptoms":[
+            "Pain", "abdominal cramping"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "2 g",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "60 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "2",
+          "Ratings": "2",
+          "DrugName": "Metronidazole",
+          "Symptoms":[
+            "severe Pain", "abdominal cramping"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "400 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "100 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "giardiasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Metronidazole",
+          "Symptoms":[
+            "Abdominal cramps", "bloating"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "2 g",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "15 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "2",
+          "Ratings": "2",
+          "DrugName": "Tinidazole",
+          "Symptoms":[
+            "Gas or flatulence","Nausea","Weight loss"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "2 g",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "ascariasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Mebendazole",
+          "Symptoms":[
+            "fever", "fatigue", "nausea", "vomiting", "abdominal pain", "dark urine", "light-colored stools", "joint pain", "jaundice"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "500 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "100 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "Ancylostomiasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Albendazole",
+          "Symptoms":[
+            "Skin rash "
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "400 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "Strongyloidiasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Ivermectin",
+          "Symptoms":[
+            "cough","a rash","red hives near the anus","vomiting"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "200 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Thiabendazole",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "25 mg",
+                "Frequencey": "every 12 hours",
+                "Mode": "po"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Cestodiasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Niclosamide",
+          "Symptoms":[
+            "fever"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "2g",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "1 g",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Praziquantel",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "40 mg",
+                "Frequencey": "every 12 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Typhoid",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Ciprofloxacin",
+          "Symptoms":[
+            "poor appetite","headaches", "peritonitis"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "500 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Chloramphenicol",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "500 mg",
+                "Frequencey": "every 12 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Schistosomiasis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Praziquantel",
+          "Symptoms":[
+            "Cough","Malaise","Headache","Rash","Body aches"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "40 mg",
+              "Frequencey": "every 12 hours",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug":null
+        }
+      ]
+    },
+    {
+      "Treatment": "Shigellosis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Ciprofloxacin",
+          "Symptoms":[
+            "fever"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "500 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Erythomycin",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "250 mg",
+                "Frequencey": "every 12 hours",
+                "Mode": "pre"
+              },
+              {
+                "Group": "Children",
+                "Dosage": "10 mg",
+                "Frequencey": "every 6 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Cholera",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Doxycycline",
+          "Symptoms":[
+            "Vomiting","diarrhea", "Rapid heart rate"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "300 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "50 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Erythomycin",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "50 mg",
+                "Frequencey": "every 12 hours",
+                "Mode": "pre"
+              },
+              {
+                "Group": "Children",
+                "Dosage": "10 mg",
+                "Frequencey": "every 6 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Peritonitis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Ampicillin",
+          "Symptoms":[
+            "tenderness","Bloating","Fever","Nausea and vomiting","Loss of appetite","Diarrhea","Low urine output","Thirst"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "1 g",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "Constipation",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Bisacodyl",
+          "Symptoms":[
+            "bowel movements"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "10 mg",
+              "Frequencey": "Once in night",
+              "Mode": "pre"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "5 mg",
+              "Frequencey": "Once in night",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Bisacodyl suppository",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "10 mg",
+                "Frequencey": "every 12 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Chronic viral Hepatitis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Lamuvidine",
+          "Symptoms":[
+            "fever", "fatigue", "loss of appetite", "nausea", "vomiting", "abdominal pain", "dark urine", "light-colored stools", "joint pain", "jaundice"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "150 mg",
+              "Frequencey": "Once in a day",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Tenofovir",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "300 mg",
+                "Frequencey": "Once in a day",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Liver Cirrhosis",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Spironolactone",
+          "Symptoms":[
+            "decreased appetite", "nose bleeds","jaundice","weight loss","anorexia","itchy skin","weakness"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "400 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "Cholestatic Jaundice",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Cholestyramine",
+          "Symptoms":[
+            "itchiness"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "15 g",
+              "Frequencey": "Once in a day",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Ursodeoxycholic acid",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "8-10 mg",
+                "Frequencey": "Once in a day",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Hepatic encephalopathy",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Neomycin",
+          "Symptoms":[
+            "confusion", "forgetfulness", "personality changes"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "12 g",
+              "Frequencey": "Once in a day",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Metronidazole",
+            "AgeCategory": [
+              {
+                "Group": "Adult",
+                "Dosage": "400 mg",
+                "Frequencey": "every 8 hours",
+                "Mode": "pre"
+              },
+              {
+                "Group": "Children",
+                "Dosage": "10 mg",
+                "Frequencey": "every 6 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Treatment": "Pneumonia",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Ampicillin",
+          "Symptoms":[
+            "Cough", "Fever", "sweating","shaking chills"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Children",
+              "Dosage": "50 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug":{
+            "DrugName": "Amoxicillin",
+            "AgeCategory": [
+              {
+                "Group": "Children",
+                "Dosage": "10 mg",
+                "Frequencey": "every 6 hours",
+                "Mode": "pre"
+              }
+            ]
+          }
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Benzyl Penicillin",
+          "Symptoms":[
+            "Cough", "Fever", "sweating","shaking chills"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "50 mg",
+              "Frequencey": "once daily at night or twice daily",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "15 mg",
+              "Frequencey": "once daily at night",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    },
+    {
+      "Treatment": "Wheezing",
+      "Medications": [
+        {
+          "Severity": "1",
+          "Ratings": "1",
+          "DrugName": "Adrenaline",
+          "Symptoms":[
+            "labored breathing"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "25 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "4 mg",
+              "Frequencey": "every 6 hours",
+              "Mode": "pre"
+            }
+          ],
+          "AlternativeDrug": null
+        },
+        {
+          "Severity": "1",
+          "Ratings": "2",
+          "DrugName": "Salbutamol",
+          "Symptoms":[
+            "labored breathing"
+          ],
+          "AgeCategory": [
+            {
+              "Group": "Adult",
+              "Dosage": "50 mg",
+              "Frequencey": "once daily at night or twice daily",
+              "Mode": "po"
+            },
+            {
+              "Group": "Children",
+              "Dosage": "15 mg",
+              "Frequencey": "once daily at night",
+              "Mode": "po"
+            }
+          ],
+          "AlternativeDrug": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.UnitOfWork" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup> 
+    <ProjectReference Include="..\PatientEngTranscription.DataAccess\PatientEngTranscription.DataAccess.csproj" />
+    <ProjectReference Include="..\PatientEngTranscription.Domain\PatientEngTranscription.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
